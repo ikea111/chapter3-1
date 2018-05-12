@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.zx.app1.MainActivity">
+    tools:context="com.example.first.chapter3_1.MainActivity">
 
     <LinearLayout
         android:layout_width="385dp"
@@ -17,14 +17,14 @@
 
         <fragment
             android:id="@+id/biaoqian"
-            android:name="com.example.zx.app1.MainActivity$activity_biaoqian"
+            android:name="com.example.first.chapter3_1.MainActivity$activity_biaoqian"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1" />
 
         <fragment
             android:id="@+id/button"
-            android:name="com.example.zx.app1.MainActivity$activtity_button"
+            android:name="com.example.first.chapter3_1.MainActivity$activtity_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="5"/>
